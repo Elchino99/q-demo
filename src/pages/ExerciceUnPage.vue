@@ -30,6 +30,9 @@
     <div  v-if="!nameValid () || !ageValid()" className="no-details">
       <p>Veuillez entrer un nom et un âge valide !</p>
     </div>
+    <a>
+      <button to="/ex2">test bouton</button>
+    </a>
   </q-page>
 </template>
 
@@ -90,7 +93,7 @@ export default defineComponent({
 })
 </script>
 
-<style>
+<style scoped>
 .form {
   background: #eee;
   padding: 10px;

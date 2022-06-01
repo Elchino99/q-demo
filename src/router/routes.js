@@ -7,7 +7,8 @@ const routes = [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: 'ex1', component: () => import('pages/ExerciceUnPage.vue') },
       { path: 'ex2', component: () => import('pages/ExerciceDeuxPage.vue') },
-      { path: 'ex3', component: () => import('pages/ExerciceTroisPage.vue') }
+      { path: 'ex3', component: () => import('pages/ExerciceTroisPage.vue') },
+      { path: 'ex4', component: () => import('pages/ExerciceQuatrePage.vue') }
     ]
   },
 

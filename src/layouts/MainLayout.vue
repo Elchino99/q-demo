@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          les exercice de Ryan Vermeille
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -80,6 +80,11 @@ export default defineComponent({
         nom: 'Exercice 3',
         url: '/ex3',
         icone: 'build'
+      },
+      {
+        nom: 'Exercice 4',
+        url: '/ex4',
+        icone: 'support_agent'
       }
       ]
     }
